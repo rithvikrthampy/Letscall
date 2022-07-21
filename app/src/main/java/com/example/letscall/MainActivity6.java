@@ -8,25 +8,25 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.button.MaterialButton;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity6 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
-        MaterialButton createbtn = (MaterialButton) findViewById(R.id.createbtn);
-        createbtn.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_main6);
+        MaterialButton qrcodejoin = (MaterialButton) findViewById(R.id.qrcodejoin);
+        qrcodejoin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(view.getContext(), MainActivity3.class);
+                Intent i = new Intent(view.getContext(), MainActivity4.class);
                 startActivity(i);
             }
         });
-        MaterialButton joinbtn = (MaterialButton) findViewById(R.id.joinbtn);
-        joinbtn.setOnClickListener(new View.OnClickListener() {
+        MaterialButton invitejoin = (MaterialButton) findViewById(R.id.invitejoin);
+        invitejoin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainActivity6.class);
+                Intent i = new Intent(v.getContext(), MainActivity5.class);
                 startActivity(i);
             }
         });

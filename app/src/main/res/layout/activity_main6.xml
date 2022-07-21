@@ -13,9 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
         android:gravity="center"
-        android:text="Let'scall"
+        android:text="How would you like to join"
         android:textColor="@color/black"
-        android:textSize="50dp"
+        android:textSize="40dp"
         android:textStyle="bold"
         ></TextView>
 
@@ -37,52 +37,53 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:gravity="center">
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/createbtn"
+            android:id="@+id/qrcodejoin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/option"
             android:layout_centerHorizontal="true"
             android:layout_margin="20dp"
             android:backgroundTint="@color/teal_200"
-            android:text="Create meeting" />
+            android:text="JOIN USING qr code" />
 
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/joinbtn"
+            android:id="@+id/invitejoin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/option"
             android:layout_centerHorizontal="true"
             android:layout_margin="20dp"
             android:backgroundTint="@color/teal_200"
-            android:text="Join meeting" />
+            android:text="Join FROM INVITE LINK IF YOU HAVE AN INVITE LINK" />
     </androidx.appcompat.widget.LinearLayoutCompat>
-<!--    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup-->
-<!--        android:id="@+id/meetinggroup"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@+id/option"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        app:alignItems="center"-->
-<!--        app:justifyContent="center"-->
-<!--        app:toggle_requiredAmount="0"-->
-<!--        app:toggle_selectableAmount="3">-->
+    <!--    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup-->
+    <!--        android:id="@+id/meetinggroup"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/option"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        app:alignItems="center"-->
+    <!--        app:justifyContent="center"-->
+    <!--        app:toggle_requiredAmount="0"-->
+    <!--        app:toggle_selectableAmount="3">-->
 
-<!--        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton-->
-<!--            android:id="@+id/createbtn"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            app:toggle_text="Create meeting" />-->
+    <!--        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton-->
+    <!--            android:id="@+id/createbtn"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:toggle_text="Create meeting" />-->
 
-<!--        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton-->
-<!--            android:id="@+id/joinbtn"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            app:toggle_text="Join meeting" />-->
+    <!--        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton-->
+    <!--            android:id="@+id/joinbtn"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:toggle_text="Join meeting" />-->
 
 
-<!--    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>-->
+    <!--    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>-->
 
 
 
